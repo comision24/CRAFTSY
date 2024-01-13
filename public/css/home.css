@@ -1,0 +1,40 @@
+.home {}
+
+/* PRODUCTS */
+.home .container-products {}
+
+.home .container-products .product {}
+
+.home .container-products .product figure {}
+
+.home .container-products .product figure img {}
+
+.home .container-products .product h3.product-name {}
+
+.home .container-products .product p.product-description {}
+
+.home .container-products .product a.show-more {}
+
+
+/* TUTORIALS */
+.home section.tutorials {}
+
+.home section.tutorials h3.subtitle {}
+
+.home section.tutorials article {}
+
+.home section.tutorials article figure {}
+
+.home section.tutorials article figure img {}
+
+.home section.tutorials article h5 {}
+
+
+/* PUBLICITY */
+.home section.publicity {}
+
+.home section.publicity h3.subtitle {}
+
+.home section.publicity figure {}
+
+.home section.publicity figure img {}
