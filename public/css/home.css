@@ -1,3 +1,4 @@
+/* MOBILE */
 .home {}
 
 /* PRODUCTS */
@@ -36,6 +37,7 @@
     padding: 10px;
     /* display: inline-block; */
     margin-bottom: 20px;
+    font-size: .7rem;
     display: none;
 }
 
@@ -74,7 +76,7 @@
 .home section.tutorials article figure img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .home section.tutorials article h5 {
@@ -110,4 +112,151 @@
 .home section.publicity figure img {
     width: 280px;
     margin: 0 auto;
+}
+
+
+
+@media (min-width: 768px)  {  /* TABLET */
+    .home {}
+
+    /* PRODUCTS */
+    .home .container-products {
+    max-width: 738px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 0;
+}
+
+    .home .container-products .product {
+    max-width: 350px;
+    margin: 0;
+}
+
+    .home .container-products .product figure {
+    max-width: 350px;
+}
+
+    .home .container-products .product figure img {}
+
+    .home .container-products .product h3.product-name {}
+
+    .home .container-products .product p.product-description {}
+
+    .home .container-products .product a.show-more {}
+
+
+    /* TUTORIALS */
+    .home section.tutorials {
+    max-width: 738px;
+    margin: 0 auto;
+}
+
+    .home section.tutorials h3.subtitle {
+    width: 100%;
+}
+
+    .home section.tutorials article {
+    flex-grow: 1;
+    /* width: 49%; */
+}
+
+    .home section.tutorials article figure {}
+
+    .home section.tutorials article figure img {}
+
+    .home section.tutorials article h5 {}
+
+
+    /* PUBLICITY */
+    .home section.publicity {
+    max-width: 738px;
+    margin: 0 auto 20px;
+}
+
+    .home section.publicity h3.subtitle {
+    width: 100%;
+}
+
+    .home section.publicity figure {flex-grow: 1;}
+
+    .home section.publicity figure img {
+    width: 100%;
+}
+}
+
+
+@media (min-width:1024px) {  /* DESKTOP */
+    .home {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: start;
+}
+
+    /* PRODUCTS */
+    .home .container-products {width: 70%;margin: 0;align-items: start;gap: 10px 0;}
+
+    .home aside {
+        width: 30%;
+    }
+
+    .home .container-products .product {
+    max-width: 250px;
+}
+
+    .home .container-products .product figure {}
+
+    .home .container-products .product figure img {}
+
+    .home .container-products .product h3.product-name {}
+
+    .home .container-products .product p.product-description {}
+
+    .home .container-products .product a.show-more {
+    display: inline-block;
+}
+
+
+    /* TUTORIALS */
+    .home section.tutorials {
+    gap: 3px;
+}
+
+    .home section.tutorials h3.subtitle {
+    margin: 0 0 10px 0;
+}
+
+    .home section.tutorials article {
+    height: 60px;
+    gap: 3px;
+}
+
+    .home section.tutorials article figure {
+    height: 100%;
+    width: 90px;
+}
+
+    .home section.tutorials article figure img {}
+
+    .home section.tutorials article h5 {
+    text-align: left;
+}
+
+
+    /* PUBLICITY */
+    .home section.publicity {
+    /* margin-top: 30px; */
+}
+
+    .home section.publicity h3.subtitle {
+    margin: 20px 0 10px 0;
+}
+
+    .home section.publicity figure {}
+
+    .home section.publicity figure img {}
+
+
 }
