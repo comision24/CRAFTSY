@@ -1,6 +1,8 @@
 :root {
-  --orange:#000;
-  --red:#000;
+  --orange:#ff4500;
+  --red:#ff4e46;
+  --white:white;
+  --lightgray:#dcdcdc;
 }
 
 * {
@@ -10,4 +12,13 @@
 a {
   color: black;
   text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-image: url(../images/other/bg-2.png);
+}
+
+li {
+  list-style: none;
 }

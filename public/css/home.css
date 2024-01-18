@@ -1,40 +1,113 @@
 .home {}
 
 /* PRODUCTS */
-.home .container-products {}
+.home .container-products {
+    max-width: 300px;
+    margin: 15px auto;
+    background-color: var(--white);
+    padding: 10px;
+}
 
-.home .container-products .product {}
+.home .container-products .product {
+    max-width: 280px;
+    margin: 0 auto 26px auto;
+}
 
-.home .container-products .product figure {}
+.home .container-products .product figure {
+    margin: 0 auto;
+    max-width: 280px;
+}
 
-.home .container-products .product figure img {}
+.home .container-products .product figure img {
+    width: 100%;
+}
 
-.home .container-products .product h3.product-name {}
+.home .container-products .product h3.product-name {
+    font-size: 1rem;
+}
 
-.home .container-products .product p.product-description {}
+.home .container-products .product p.product-description {
+    font-size: 0.7rem;
+}
 
-.home .container-products .product a.show-more {}
+.home .container-products .product a.show-more {
+    background-color: var(--red);
+    color: var(--white);
+    padding: 10px;
+    /* display: inline-block; */
+    margin-bottom: 20px;
+    display: none;
+}
 
 
 /* TUTORIALS */
-.home section.tutorials {}
+.home section.tutorials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
 
-.home section.tutorials h3.subtitle {}
+.home section.tutorials h3.subtitle {
+    background-color: var(--white);
+    width: 300px;
+    padding: 10px;
+    border: 1px solid var(--lightgray);
+    margin: 20px 0 0 0;
+}
 
-.home section.tutorials article {}
+.home section.tutorials article {
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--lightgray);
+    border-radius: 4px;
+    width: 300px;
+    padding: 8px;
+}
 
-.home section.tutorials article figure {}
+.home section.tutorials article figure {
+    margin: 0;
+    height: 70px;
+}
 
-.home section.tutorials article figure img {}
+.home section.tutorials article figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
-.home section.tutorials article h5 {}
+.home section.tutorials article h5 {
+    font-size: 0.7rem;
+    flex-grow: 2;
+    text-align: center;
+}
 
 
 /* PUBLICITY */
-.home section.publicity {}
+.home section.publicity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-.home section.publicity h3.subtitle {}
+.home section.publicity h3.subtitle {
+    background-color: var(--white);
+    width: 300px;
+    padding: 10px;
+    border: 1px solid var(--lightgray);
+    margin: 20px 0;
+}
 
-.home section.publicity figure {}
+.home section.publicity figure {
+    margin: 0;
+    width: 300px;
+    background-color: var(--white);
+    display: flex;
+    padding: 8px;
+}
 
-.home section.publicity figure img {}
+.home section.publicity figure img {
+    width: 280px;
+    margin: 0 auto;
+}
