@@ -1,0 +1,22 @@
+/* LINK */
+
+.link-custom-orange{
+  color: var(--orange);
+}
+.link-custom-orange:hover{
+  color: var(--orange-hover);
+}
+
+
+/* BUTTON */
+.btn-custom-orange {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.btn-custom-orange:hover {
+  background-color:var(--orange-hover);
+  color: var(--white); 
+}
+
+
